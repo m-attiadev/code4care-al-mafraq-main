@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="540" viewBox="0 0 980 540">
+  <style>
+    .title { font: bold 22px sans-serif; }
+    .label { font: 16px sans-serif; }
+    .box { fill: #f8fafc; stroke: #334155; stroke-width: 2; }
+    .accent { fill: #e2e8f0; stroke: #334155; }
+    .arrow { stroke: #334155; stroke-width: 2; marker-end: url(#arrowhead); }
+  </style>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#334155" />
+    </marker>
+  </defs>
+
+  <text x="20" y="40" class="title">مخطط البنية التقنية – Code4Care المفرق</text>
+
+  <!-- Client -->
+  <rect x="40" y="80" width="260" height="130" rx="10" class="box" />
+  <text x="55" y="110" class="label">واجهة العميل (المتصفح)</text>
+  <text x="55" y="140" class="label">React + Vite + TypeScript</text>
+  <text x="55" y="170" class="label">Tailwind CSS | i18n عربي أولاً</text>
+
+  <!-- App -->
+  <rect x="360" y="80" width="260" height="130" rx="10" class="box" />
+  <text x="375" y="110" class="label">تطبيق الواجهة (SPA)</text>
+  <text x="375" y="140" class="label">Pages: أمراض، تبرع بالدم، أطباء، تحاليل…</text>
+  <text x="375" y="170" class="label">Hooks + Components + Routing</text>
+
+  <!-- Data layer -->
+  <rect x="680" y="80" width="260" height="130" rx="10" class="box" />
+  <text x="695" y="110" class="label">طبقة البيانات المحلية</text>
+  <text x="695" y="140" class="label">JSON في `public/`</text>
+  <text x="695" y="170" class="label">who_diseases.json | doctors.json | vaccines.json</text>
+
+  <!-- Arrows top row -->
+  <line x1="300" y1="145" x2="360" y2="145" class="arrow" />
+  <line x1="620" y1="145" x2="680" y2="145" class="arrow" />
+
+  <!-- Privacy and quality -->
+  <rect x="40" y="240" width="420" height="120" rx="10" class="accent" />
+  <text x="55" y="270" class="label">الخصوصية والأمان</text>
+  <text x="55" y="300" class="label">لا بيانات حساسة | بدون تعقب | تخزين محلي</text>
+  <text x="55" y="330" class="label">موافقة المستخدم واضحه | أداء محسّن</text>
+
+  <rect x="500" y="240" width="440" height="120" rx="10" class="accent" />
+  <text x="515" y="270" class="label">جودة المحتوى والاعتمادية</text>
+  <text x="515" y="300" class="label">مصادر: WHO/EMRO، وزارة الصحة الأردنية</text>
+  <text x="515" y="330" class="label">مراجعة دورية + توثيق + اختبار</text>
+
+  <!-- Future extensions -->
+  <rect x="40" y="380" width="900" height="120" rx="10" class="box" />
+  <text x="55" y="410" class="label">توسعات مستقبلية</text>
+  <text x="55" y="440" class="label">تكامل حكومي (API)، الذكاء الصحي، تنبيهات، تتبّع لقاحات</text>
+  <text x="55" y="470" class="label">تخطيط مواعيد، تخصيص بحسب الموقع، دعم الوصول</text>
+</svg>

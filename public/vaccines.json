@@ -1,0 +1,150 @@
+{
+  "who": {
+    "child": [
+      {
+        "name": "الثلاثي الفيروسي (MMR)",
+        "schedule": "عند 12 شهرًا وجرعة ثانية عند 18 شهرًا أو قبل المدرسة",
+        "notes": "يحمي من الحصبة والحصبة الألمانية والنكاف.",
+        "source": "https://www.who.int/ar/health-topics/measles"
+      },
+      {
+        "name": "الخماسي (DTaP-HepB-Hib)",
+        "schedule": "عند 2 و4 و6 أشهر؛ جرعة داعمة لاحقًا حسب البلد",
+        "notes": "يحمي من الدفتيريا والكزاز والسعال الديكي والتهاب الكبد ب والمستدمية النزلية.",
+        "source": "https://www.who.int/ar/health-topics/diphtheria"
+      },
+      {
+        "name": "شلل الأطفال (IPV/OPV)",
+        "schedule": "جرعات متعددة في الرضاعة وجرعات داعمة في الطفولة المبكرة",
+        "notes": "الالتزام ببرنامج البلد مهم للوقاية الكاملة.",
+        "source": "https://www.who.int/ar/health-topics/poliomyelitis"
+      },
+      {
+        "name": "المكورات الرئوية (PCV)",
+        "schedule": "غالبًا عند 2 و4 و6 أشهر (حسب البلد)",
+        "notes": "للوقاية من الالتهاب الرئوي ومضاعفاته.",
+        "source": "https://www.who.int/ar/health-topics/pneumonia"
+      },
+      {
+        "name": "الفيروس العجلي (Rotavirus)",
+        "schedule": "سلسلة من جرعتين أو ثلاث في عمر مبكر",
+        "notes": "يقلل من حالات الإسهال الشديد لدى الرضع.",
+        "source": "https://www.who.int/ar/health-topics/diarrhoea"
+      },
+      {
+        "name": "التهاب الكبد ب (HepB)",
+        "schedule": "جرعة الولادة متبوعة بجرعات في الرضاعة",
+        "notes": "أحيانًا ضمن الخماسي؛ اتبع برنامج بلدك.",
+        "source": "https://www.who.int/ar/health-topics/hepatitis-b"
+      }
+    ],
+    "adult": [
+      {
+        "name": "إنفلونزا موسمية",
+        "schedule": "جرعة سنوية قبل موسم الشتاء",
+        "notes": "مهمة لمرضى الأمراض المزمنة وكبار السن والعاملين الصحيين.",
+        "source": "https://www.who.int/ar/health-topics/influenza"
+      },
+      {
+        "name": "الكزاز/الدفتيريا (Td)",
+        "schedule": "تعزيزية كل 10 سنوات",
+        "notes": "ضرورية خصوصًا بعد الجروح الملوثة أو للسفر.",
+        "source": "https://www.who.int/ar/health-topics/tetanus"
+      },
+      {
+        "name": "داء الكلب",
+        "schedule": "وقاية قبل التعرض للمهن عالية الخطورة أو بعد التعرض",
+        "notes": "اتبع التوصيات المحلية.",
+        "source": "https://www.who.int/ar/health-topics/rabies"
+      },
+      {
+        "name": "الحمى الصفراء/التيفود",
+        "schedule": "حسب وجهة السفر ومتطلبات الدخول",
+        "notes": "استشر العيادات المعتمدة للسفر.",
+        "source": "https://www.who.int/ar/health-topics/yellow-fever"
+      }
+    ],
+    "senior": [
+      {
+        "name": "المكورات الرئوية (PPV/PCV)",
+        "schedule": "جرعة/سلسلة حسب الحالة والعمر",
+        "notes": "للوقاية من ذات الرئة لكبار السن.",
+        "source": "https://www.who.int/ar/health-topics/pneumonia"
+      },
+      {
+        "name": "الهربس النطاقي (Shingles)",
+        "schedule": "جرعة/سلسلة في الأعمار الأكبر",
+        "notes": "استشر مقدم الرعاية لتوفر اللقاح.",
+        "source": "https://www.who.int/health-topics/herpes-zoster"
+      },
+      {
+        "name": "إنفلونزا موسمية",
+        "schedule": "جرعة سنوية",
+        "notes": "أولوية عالية لكبار السن.",
+        "source": "https://www.who.int/ar/health-topics/influenza"
+      }
+    ]
+  },
+  "jordan": {
+    "child": [
+      {
+        "name": "اللقاح الخماسي (DTaP-HepB-Hib)",
+        "schedule": "عند 2 و4 و6 أشهر؛ جرعة داعمة لاحقًا",
+        "notes": "ضمن برنامج التطعيم الوطني؛ راجع الجدول الرسمي.",
+        "source": "https://moh.gov.jo/EBV4.0/Root_Storage/AR/IT/%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC_%D8%A7%D9%84%D8%AA%D8%B7%D8%B9%D9%8A%D9%85_%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A.pdf"
+      },
+      {
+        "name": "شلل الأطفال (IPV/OPV)",
+        "schedule": "جرعات في الرضاعة وجرعات داعمة في الطفولة",
+        "notes": "حسب البرنامج الوطني.",
+        "source": "https://moh.gov.jo/EBV4.0/Root_Storage/AR/IT/%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC_%D8%A7%D9%84%D8%AA%D8%B7%D8%B9%D9%8A%D9%85_%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A.pdf"
+      },
+      {
+        "name": "الثلاثي الفيروسي (MMR)",
+        "schedule": "عند 12 و18 شهرًا",
+        "notes": "حسب البرنامج الوطني.",
+        "source": "https://moh.gov.jo/EBV4.0/Root_Storage/AR/IT/%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC_%D8%A7%D9%84%D8%AA%D8%B7%D8%B9%D9%8A%D9%85_%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A.pdf"
+      },
+      {
+        "name": "المكورات الرئوية (PCV)",
+        "schedule": "غالبًا عند 2 و4 و6 أشهر",
+        "notes": "حسب التوفر والبرنامج الوطني.",
+        "source": "https://moh.gov.jo/EBV4.0/Root_Storage/AR/IT/%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC_%D8%A7%D9%84%D8%AA%D8%B7%D8%B9%D9%8A%D9%85_%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A.pdf"
+      },
+      {
+        "name": "الفيروس العجلي (Rotavirus)",
+        "schedule": "سلسلة في الأشهر الأولى",
+        "notes": "حسب الجدول المحلي.",
+        "source": "https://moh.gov.jo/EBV4.0/Root_Storage/AR/IT/%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC_%D8%A7%D9%84%D8%AA%D8%B7%D8%B9%D9%8A%D9%85_%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A.pdf"
+      }
+    ],
+    "adult": [
+      {
+        "name": "الكزاز/الدفتيريا (Td)",
+        "schedule": "تعزيزية كل 10 سنوات",
+        "notes": "حسب القواعد الوطنية.",
+        "source": "https://www.who.int/ar/health-topics/tetanus"
+      },
+      {
+        "name": "إنفلونزا موسمية",
+        "schedule": "جرعة سنوية",
+        "notes": "تحظى بالأولوية للفئات الأكثر عرضة",
+        "source": "https://www.who.int/ar/health-topics/influenza"
+      }
+    ],
+    "senior": [
+      {
+        "name": "المكورات الرئوية (PPV/PCV)",
+        "schedule": "حسب العمر والحالة",
+        "notes": "مهمة لكبار السن",
+        "source": "https://www.who.int/ar/health-topics/pneumonia"
+      },
+      {
+        "name": "إنفلونزا موسمية",
+        "schedule": "جرعة سنوية",
+        "notes": "أولوية عالية",
+        "source": "https://www.who.int/ar/health-topics/influenza"
+      }
+    ]
+  }
+}

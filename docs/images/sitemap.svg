@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="540" viewBox="0 0 980 540">
+  <style>
+    .title { font: bold 22px sans-serif; }
+    .label { font: 16px sans-serif; }
+    .box { fill: #f8fafc; stroke: #334155; stroke-width: 2; }
+    .arrow { stroke: #334155; stroke-width: 2; marker-end: url(#arrowhead); }
+  </style>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#334155" />
+    </marker>
+  </defs>
+
+  <text x="20" y="40" class="title">خريطة الموقع (Sitemap)</text>
+
+  <rect x="420" y="80" width="160" height="60" rx="10" class="box" />
+  <text x="445" y="115" class="label">الصفحة الرئيسية</text>
+
+  <rect x="120" y="180" width="180" height="60" rx="10" class="box" />
+  <text x="140" y="215" class="label">الأمراض والوقاية</text>
+
+  <rect x="360" y="180" width="180" height="60" rx="10" class="box" />
+  <text x="380" y="215" class="label">التبرع بالدم</text>
+
+  <rect x="600" y="180" width="180" height="60" rx="10" class="box" />
+  <text x="620" y="215" class="label">الأطباء</text>
+
+  <rect x="120" y="280" width="180" height="60" rx="10" class="box" />
+  <text x="160" y="315" class="label">التحاليل</text>
+
+  <rect x="360" y="280" width="180" height="60" rx="10" class="box" />
+  <text x="380" y="315" class="label">المراجعات</text>
+
+  <rect x="600" y="280" width="180" height="60" rx="10" class="box" />
+  <text x="635" y="315" class="label">الحكومي</text>
+
+  <rect x="120" y="380" width="180" height="60" rx="10" class="box" />
+  <text x="155" y="415" class="label">التغذية</text>
+
+  <rect x="360" y="380" width="180" height="60" rx="10" class="box" />
+  <text x="375" y="415" class="label">الصحة النفسية</text>
+
+  <rect x="600" y="380" width="180" height="60" rx="10" class="box" />
+  <text x="615" y="415" class="label">المدونة</text>
+
+  <!-- arrows -->
+  <line x1="500" y1="140" x2="210" y2="180" class="arrow" />
+  <line x1="500" y1="140" x2="450" y2="180" class="arrow" />
+  <line x1="500" y1="140" x2="690" y2="180" class="arrow" />
+
+  <line x1="210" y1="240" x2="210" y2="280" class="arrow" />
+  <line x1="450" y1="240" x2="450" y2="280" class="arrow" />
+  <line x1="690" y1="240" x2="690" y2="280" class="arrow" />
+
+  <line x1="210" y1="340" x2="210" y2="380" class="arrow" />
+  <line x1="450" y1="340" x2="450" y2="380" class="arrow" />
+  <line x1="690" y1="340" x2="690" y2="380" class="arrow" />
+</svg>

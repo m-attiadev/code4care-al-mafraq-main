@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="520" viewBox="0 0 980 520">
+  <style>
+    .title { font: bold 22px sans-serif; }
+    .label { font: 16px sans-serif; }
+    .box { fill: #f8fafc; stroke: #334155; stroke-width: 2; }
+    .arrow { stroke: #334155; stroke-width: 2; marker-end: url(#arrowhead); }
+  </style>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#334155" />
+    </marker>
+  </defs>
+
+  <text x="20" y="40" class="title">مصادر البيانات والاعتمادية</text>
+
+  <rect x="60" y="80" width="240" height="90" rx="10" class="box" />
+  <text x="75" y="110" class="label">WHO/EMRO</text>
+  <text x="75" y="135" class="label">مواضيع الأمراض والوقاية</text>
+
+  <rect x="360" y="80" width="240" height="90" rx="10" class="box" />
+  <text x="375" y="110" class="label">وزارة الصحة الأردنية</text>
+  <text x="375" y="135" class="label">قائمة الأطباء، حملات التوعية</text>
+
+  <rect x="660" y="80" width="240" height="90" rx="10" class="box" />
+  <text x="675" y="110" class="label">مصادر محلية موثوقة</text>
+  <text x="675" y="135" class="label">البلديات، المستشفيات، مراكز الصحة</text>
+
+  <rect x="60" y="220" width="840" height="110" rx="10" class="box" />
+  <text x="75" y="250" class="label">التجهيز والتحديث</text>
+  <text x="75" y="280" class="label">تنسيق JSON | مراجعة دورية | توثيق المصدر</text>
+
+  <rect x="60" y="360" width="840" height="120" rx="10" class="box" />
+  <text x="75" y="390" class="label">الاستخدام داخل التطبيق</text>
+  <text x="75" y="420" class="label">who_diseases.json | doctors.json | vaccines.json</text>
+  <text x="75" y="450" class="label">أداء عالي + خصوصية البيانات + سهولة النشر</text>
+
+  <!-- arrows -->
+  <line x1="180" y1="170" x2="180" y2="220" class="arrow" />
+  <line x1="480" y1="170" x2="480" y2="220" class="arrow" />
+  <line x1="780" y1="170" x2="780" y2="220" class="arrow" />
+
+  <line x1="480" y1="330" x2="480" y2="360" class="arrow" />
+</svg>

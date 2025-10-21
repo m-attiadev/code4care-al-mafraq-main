@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="520" viewBox="0 0 980 520">
+  <style>
+    .title { font: bold 22px sans-serif; }
+    .label { font: 16px sans-serif; }
+    .box { fill: #f8fafc; stroke: #334155; stroke-width: 2; }
+    .step { fill: #e2e8f0; stroke: #334155; }
+    .arrow { stroke: #334155; stroke-width: 2; marker-end: url(#arrowhead); }
+  </style>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#334155" />
+    </marker>
+  </defs>
+
+  <text x="20" y="40" class="title">تدفق تجربة المستخدم</text>
+
+  <!-- Steps -->
+  <rect x="40" y="80" width="240" height="90" rx="10" class="step" />
+  <text x="55" y="110" class="label">الصفحة الرئيسية</text>
+  <text x="55" y="135" class="label">مقدمة وخدمات رئيسية</text>
+
+  <rect x="300" y="80" width="240" height="90" rx="10" class="step" />
+  <text x="315" y="110" class="label">الأمراض والوقاية</text>
+  <text x="315" y="135" class="label">مواضيع WHO بالعربية</text>
+
+  <rect x="560" y="80" width="240" height="90" rx="10" class="step" />
+  <text x="575" y="110" class="label">التبرع بالدم</text>
+  <text x="575" y="135" class="label">تعهد + آخر تبرع + إرشادات</text>
+
+  <rect x="820" y="80" width="120" height="90" rx="10" class="step" />
+  <text x="830" y="110" class="label">الأطباء</text>
+  <text x="830" y="135" class="label">قائمة أطباء المفرق</text>
+
+  <!-- Arrows -->
+  <line x1="280" y1="125" x2="300" y2="125" class="arrow" />
+  <line x1="540" y1="125" x2="560" y2="125" class="arrow" />
+  <line x1="800" y1="125" x2="820" y2="125" class="arrow" />
+
+  <!-- Lower row -->
+  <rect x="40" y="200" width="240" height="90" rx="10" class="box" />
+  <text x="55" y="230" class="label">التحاليل المخبرية</text>
+  <text x="55" y="255" class="label">قائمة التحاليل وإرشادات</text>
+
+  <rect x="300" y="200" width="240" height="90" rx="10" class="box" />
+  <text x="315" y="230" class="label">المراجعات</text>
+  <text x="315" y="255" class="label">استبيان رضا وخدمات</text>
+
+  <rect x="560" y="200" width="240" height="90" rx="10" class="box" />
+  <text x="575" y="230" class="label">الصحة النفسية والتغذية</text>
+  <text x="575" y="255" class="label">إرشادات وموارد</text>
+
+  <rect x="820" y="200" width="120" height="90" rx="10" class="box" />
+  <text x="830" y="230" class="label">حكومي</text>
+  <text x="830" y="255" class="label">روابط الخدمات الحكومية</text>
+
+  <!-- Navigation arrows -->
+  <line x1="160" y1="170" x2="160" y2="200" class="arrow" />
+  <line x1="420" y1="170" x2="420" y2="200" class="arrow" />
+  <line x1="680" y1="170" x2="680" y2="200" class="arrow" />
+  <line x1="880" y1="170" x2="880" y2="200" class="arrow" />
+
+  <!-- Footer -->
+  <rect x="40" y="320" width="900" height="150" rx="10" class="box" />
+  <text x="55" y="350" class="label">مبادئ التجربة</text>
+  <text x="55" y="380" class="label">بساطة، لغة عربية، أداء سريع، وصول لذوي الاحتياجات</text>
+  <text x="55" y="410" class="label">إشعارات، تذكيرات، سهولة مشاركة</text>
+</svg>
