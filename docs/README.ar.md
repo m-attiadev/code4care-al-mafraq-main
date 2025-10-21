@@ -147,3 +147,22 @@ npm run preview
 - استخدم مكوّنات `ui/` لواجهة موحّدة.
 - حدّث `navigation-menu.ts` عند إضافة/حذف صفحات.
 - راقب استدعاءات الشبكة لـ Overpass API لتجنّب تجاوز المعدل.
+
+## مجموعات البيانات المستخدمة
+
+- `public/who_diseases.json`: مواضيع الأمراض من مصادر WHO/EMRO.
+- `public/vaccines.json`: جداول اللقاحات والملاحظات للفئات العمرية والخاصة.
+- `public/doctors.json`: دليل الأطباء في المفرق (اسم، تخصص، موقع، تواصل).
+
+توليد/تحديث البيانات:
+- `scripts/fetch_who_topics.mjs`: جلب وتجهيز مواضيع الأمراض.
+- `scripts/fetch_jo_doctors.mjs`: جلب/تنظيف بيانات الأطباء.
+
+استخدام داخل الواجهة (مثال):
+```ts
+fetch('/vaccines.json')
+  .then((r) => r.json())
+  .then((list) => {
+    // عرض جداول اللقاحات
+  });
+```
