@@ -43,6 +43,19 @@ npm i
 npm run dev
 ```
 
+
+
+## صور المخططات
+
+- `public/images/architecture.svg` — مخطط البنية التقنية
+- `public/images/user_flow.svg` — تدفق المستخدم
+- `public/images/sitemap.svg` — خريطة الموقع
+- `public/images/data_sources.svg` — مصادر البيانات والموثوقية
+
+مثال تضمين داخل صفحة React:
+```html
+<img src="/images/sitemap.svg" alt="خريطة الموقع" />
+```
 - بناء الإنتاج:
 
 ```sh
