@@ -43,8 +43,6 @@ npm i
 npm run dev
 ```
 
-
-
 ## صور المخططات
 
 - `public/images/architecture.svg` — مخطط البنية التقنية
@@ -53,9 +51,11 @@ npm run dev
 - `public/images/data_sources.svg` — مصادر البيانات والموثوقية
 
 مثال تضمين داخل صفحة React:
+
 ```html
 <img src="/images/sitemap.svg" alt="خريطة الموقع" />
 ```
+
 - بناء الإنتاج:
 
 ```sh
@@ -155,12 +155,14 @@ npm run preview
 - `public/doctors.json`: دليل الأطباء في المفرق (اسم، تخصص، موقع، تواصل).
 
 توليد/تحديث البيانات:
+
 - `scripts/fetch_who_topics.mjs`: جلب وتجهيز مواضيع الأمراض.
 - `scripts/fetch_jo_doctors.mjs`: جلب/تنظيف بيانات الأطباء.
 
 استخدام داخل الواجهة (مثال):
+
 ```ts
-fetch('/vaccines.json')
+fetch("/vaccines.json")
   .then((r) => r.json())
   .then((list) => {
     // عرض جداول اللقاحات

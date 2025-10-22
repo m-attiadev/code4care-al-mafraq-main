@@ -8,16 +8,19 @@
   • https://www.emro.who.int/ar/health-topics/index.html
 - ملاحظة: كل عنصر داخل الملف يحتوي حقل "link" يشير إلى صفحة المصدر المباشرة لكل موضوع.
 
+
 2) ملف: public/vaccines.json
 - الوصف: جداول اللقاحات والملاحظات للفئات (أطفال الأردن، بالغون/سفر، كبار السن).
 - الجهة/الموقع:
   • وزارة الصحة الأردنية — البرنامج الوطني للتطعيم (وثيقة PDF رسمية)
     الرابط المباشر: https://moh.gov.jo/EBV4.0/Root_Storage/AR/IT/%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC_%D8%A7%D9%84%D8%AA%D8%B7%D8%B9%D9%8A%D9%85_%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A.pdf
+  
   • منظمة الصحة العالمية — الصفحات المرجعية للقاحات/الأمراض
     الروابط المباشرة الرئيسية:
     - https://www.who.int/ar/health-topics/vaccines-and-immunization
     - أمثلة مستخدمة داخل الملف: الإنفلونزا https://www.who.int/ar/health-topics/influenza ، الحمى الصفراء https://www.who.int/ar/health-topics/yellow-fever ، السُعار https://www.who.int/ar/health-topics/rabies ، ذات الرئة/المكورات الرئوية https://www.who.int/ar/health-topics/pneumonia
 - ملاحظة: لكل عنصر حقل "source" يحتوي الرابط المرجعي المباشر.
+
 
 3) ملف: public/doctors.json
 - الوصف: دليل أطباء وعيادات محافظة المفرق (اسم، تخصص، عنوان، تواصل إن وجد).
