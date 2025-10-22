@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <title>Code4Care المفرق — نظرة عامة ومخططات</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body { font-family: 'Tahoma', Arial, sans-serif; line-height: 1.7; color: #111; margin: 0; padding: 24px; }
+    h1, h2, h3 { margin: 0 0 12px; }
+    h1 { font-size: 24px; }
+    h2 { font-size: 20px; border-right: 4px solid #0ea5e9; padding-right: 8px; }
+    h3 { font-size: 16px; color: #374151; }
+    p { margin: 8px 0; }
+    ul { margin: 8px 0 16px; }
+    li { margin: 4px 0; }
+    .section { margin: 20px 0; page-break-inside: avoid; }
+    .grid { display: grid; grid-template-columns: 1fr; gap: 16px; }
+    .img-wrap { border: 1px solid #e5e7eb; padding: 8px; border-radius: 8px; background: #fafafa; }
+    .img-wrap img { max-width: 100%; height: auto; }
+    .muted { color: #6b7280; font-size: 12px; }
+    .footer { margin-top: 24px; font-size: 12px; color: #4b5563; }
+    @page { size: A4; margin: 20mm 15mm; }
+  </style>
+</head>
+<body>
+  <h1>Code4Care المفرق — نظرة عامة ومخططات</h1>
+  <p class="muted">نسخة PDF عربية موجزة تحتوي على معلومات الموقع، الصفحات، مجموعات البيانات، ومخططات البنية وتجربة المستخدم.</p>
+
+  <div class="section">
+    <h2>ملخص المشروع</h2>
+    <p>منصة صحية موجهة لسكان محافظة المفرق، تقدّم صفحات وخدمات للتثقيف الصحي، التبرع بالدم، قراءة التحاليل، دليل الأطباء، والمستشفيات، مع تجربة عربية كاملة (RTL). تعتمد على React + Vite + TypeScript وواجهة shadcn-ui و Tailwind CSS.</p>
+  </div>
+
+  <div class="section">
+    <h2>الصفحات الرئيسية</h2>
+    <ul>
+      <li>الرئيسية — بطاقات الخدمات وروابط سريعة.</li>
+      <li>الأمراض والوقاية — تبويب معدية/غير معدية/تطعيمات، بحث، صفحات تفاصيل.</li>
+      <li>الأطباء — قائمة من <code>public/doctors.json</code> مع تخصص/موقع/تأمين.</li>
+      <li>التحاليل المخبرية — إرشادات قراءة CBC، السكر، الدهون.</li>
+      <li>التبرع بالدم — الأهلية والشروط وبنوك الدم المحلية.</li>
+      <li>الخدمات الحكومية — روابط رسمية للتطعيمات والتأمين والشكاوى.</li>
+      <li>المستشفيات — بيانات الاتصال والموقع للمستشفيات في المفرق.</li>
+      <li>الصحة النفسية، التغذية واللياقة، المراجعات، التداوي عن بعد، الذكاء الصحي، الوظائف، المدونة.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>مجموعات البيانات</h2>
+    <ul>
+      <li><code>public/who_diseases.json</code> — مواضيع الأمراض (WHO/EMRO) مع روابط مرجعية.</li>
+      <li><code>public/vaccines.json</code> — جداول اللقاحات والملاحظات للفئات العمرية والخاصة.</li>
+      <li><code>public/doctors.json</code> — دليل أطباء المفرق (اسم، تخصص، موقع، تواصل).</li>
+    </ul>
+    <h3>توليد/تحديث البيانات</h3>
+    <ul>
+      <li><code>scripts/fetch_who_topics.mjs</code> — جلب وتجهيز مواضيع الأمراض.</li>
+      <li><code>scripts/fetch_jo_doctors.mjs</code> — جلب/تنظيف بيانات الأطباء.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>المخططات</h2>
+    <div class="grid">
+      <div class="img-wrap">
+        <h3>مخطط البنية</h3>
+        <img src="./images/architecture.svg" alt="مخطط البنية التقنية" />
+      </div>
+      <div class="img-wrap">
+        <h3>تدفق المستخدم</h3>
+        <img src="./images/user_flow.svg" alt="تدفق تجربة المستخدم" />
+      </div>
+      <div class="img-wrap">
+        <h3>خريطة الموقع</h3>
+        <img src="./images/sitemap.svg" alt="خريطة الموقع" />
+      </div>
+      <div class="img-wrap">
+        <h3>مصادر البيانات</h3>
+        <img src="./images/data_sources.svg" alt="مصادر البيانات" />
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>المبادئ</h2>
+    <ul>
+      <li>الخصوصية — لا نجمع بيانات حساسة؛ تخزين محلي لبعض النماذج.</li>
+      <li>الاعتمادية — نسب المصادر الرسمية (WHO/EMRO، وزارة الصحة الأردنية) داخل الواجهة.</li>
+      <li>الوصولية — دعم RTL، تباين مناسب، عناصر قابلة للتركيز.</li>
+      <li>الأداء — واجهة خفيفة وبناء إنتاجي محسّن.</li>
+    </ul>
+  </div>
+
+  <div class="footer">
+    <p>تم إعداد هذه الوثيقة تلقائيًا من ملفات المشروع. الإصدار: فرع <strong>main</strong>.</p>
+  </div>
+</body>
+</html>
